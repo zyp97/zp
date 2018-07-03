@@ -1,0 +1,52 @@
+/* pages/index/gs.wxss */
+.img-gs{
+   width: 100%;
+   height:400rpx;
+}
+.man{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rpx;
+}
+.wen{
+  color:orange;
+  text-align: center;
+}
+.der{
+  width:100%;
+  border:1rpx solid orange;
+  margin-top: 10rpx;
+}
+.fads{
+   width:100%;
+   height:100rpx;
+   display: flex;
+   border-bottom:1rpx solid lavender;
+   margin-top: 20rpx;
+}
+.ipo{
+  width:100rpx;
+  height:100rpx;
+}
+.fun{
+  font-size: 30rpx;
+  margin-top: 30rpx;
+  color:#808080;
+}
+.m{
+  color:orange;
+}
+.maps{
+  width:90%;
+  padding: 30rpx;
+  background:#fea500;
+  border-radius: 10rpx;
+  margin: 20rpx auto;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+}
+.mp{
+  width:100%;
+}
+

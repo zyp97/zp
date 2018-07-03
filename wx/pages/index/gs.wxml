@@ -1,0 +1,26 @@
+<view>
+   <image src='images/8.gif' class='img-gs'></image> 
+   <view class='man'>
+       <text class='wen'>联系方式</text>
+       <text class='der'></text>
+       <view class='fads'>
+           <image src='images/15.gif'class='ipo'></image>  
+           <text class='fun'bindtap='callme'>联系方式:<text class='m'>15712015370</text></text>
+       </view>
+        <view class='fads'>
+           <image src='images/16.gif'class='ipo'></image>  
+           <text class='fun'bindtap='callme'>手机号码:<text class='m'>15712015370</text></text>
+       </view>
+        <view class='fads'>
+           <image src='images/17.gif'class='ipo'></image>  
+           <text class='fun'>电子邮箱:<text class='m'>zyplife96@163.com</text></text>
+       </view>
+        <view class='fads'>
+           <image src='images/18.gif'class='ipo'></image>  
+           <text class='fun'>联系地址:<text class='m'>怀化麻阳</text></text>
+       </view>
+       <navigator url='map' class='maps'>进入全屏地图</navigator>
+       <map id="map" longitude="109.79" latitude="27.52" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height:600rpx;">
+</map>
+   </view>
+</view>

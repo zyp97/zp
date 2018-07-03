@@ -1,0 +1,5 @@
+/* pages/index/map.wxss */
+.maps{
+  width:100%;
+  height:2000rpx;
+}

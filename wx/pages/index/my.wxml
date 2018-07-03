@@ -1,0 +1,50 @@
+<view class='bgcl'>
+   <image src='images/19.gif'class='jq'></image>
+   <text class='name'>玖柒</text>
+</view>
+<view class='kove'>
+    <view class='mov'>
+        <image src='images/20.gif'class='xixa'></image>
+        <text class='texta'>进入客服</text>
+        <image src='images/24.gif'class='jt'></image>
+    </view>
+    <view class='mov'>
+        <image src='images/21.gif'class='xix'></image>
+        <text class='texta'>联系客服</text>
+        <image src='images/24.gif'class='jt'></image>
+    </view>
+    <view class='mov'>
+        <image src='images/22.gif'class='xix'></image>
+        <text class='texta'>清理缓存</text>
+        <image src='images/24.gif'class='jt'></image>
+    </view>
+    <view class='mov'>
+        <image src='images/23.gif'class='xix'></image>
+        <text class='texta'>公司介绍</text>
+        <image src='images/24.gif'class='jt'></image>
+    </view>
+
+     <view class="footer">
+            <view class='footer-img'>
+              <navigator url='index'> <image src='images/10.gif'class='wach'></image></navigator>
+               <navigator class='index'>首页</navigator>
+            </view>
+             <view class='footer-img'>
+               <navigator url='gs'><image src='images/11.gif'class='wach'></image></navigator>
+               <navigator url='gs' class='gs'>公司介绍</navigator>
+            </view>
+             <view class='footer-img'>
+               <navigator url='gs'><image src='images/12.gif'class='wach'></image></navigator>
+               <navigator url='gs' class='fw'>服务</navigator>
+            </view>
+             <view class='footer-img'>
+               <navigator url='gs'><image src='images/13.gif'class='wach'></image></navigator>
+               <navigator url='gs'class='gs'>联系方式</navigator>
+            </view>
+             <view class='footer-img'>
+               <navigator url='my'><image src='images/14.gif'class='wach'></image></navigator>
+                <navigator url='my'class='fw'>我的</navigator>
+            </view>
+        </view>
+      
+</view>

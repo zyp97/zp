@@ -1,0 +1,69 @@
+<!--index.wxml-->
+<view> 
+     <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000"duration="1000">  
+        <block wx:for="{{movies}}" wx:for-index="index">  
+          <swiper-item>  
+            <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          </swiper-item>  
+        </block>  
+      </swiper>
+      <view class='nav'>
+         <view class="nav-y">
+            <image src="{{fades}}"class="fade"></image>
+            <text class='tex'>{{tex}}</text>
+         </view>
+          <view class="nav-y">
+            <image src="{{fader}}"class="fade"></image>
+            <text class='tey'>{{tey}}</text>
+         </view>
+          <view class="nav-y">
+            <image src="{{faded}}"class="fade"></image>
+            <text class='tea'>{{tea}}</text>
+         </view>
+          <view class="nav-y">
+            <image src="{{fadee}}"class="fade"></image>
+            <text class='teb'>{{teb}}</text>
+         </view>
+      </view>
+      <view class='section'>
+         <image src='{{big}}'class='big'></image>
+        <view class='cool'>
+          <text class='ys'>养生</text>
+          <text class='mr'>美容</text>
+          <text class='hl'>养生护理</text>
+          <text class='jk'>健康养生</text> 
+       </view>
+       <view class='sec'>
+         <image src='images/9.gif'class='kil'></image>
+         <view class='tex-p'>
+              <text class='t-y'>养生</text>
+              <text class='t'>2018.6.29</text>
+          </view>
+       </view>
+       <view class='read'>
+           <text class='reader'>查看更多</text>
+        </view>
+        <view class="footer">
+            <view class='footer-img'>
+               <image src='images/10.gif'class='wach'></image>
+               <text class='index'>首页</text>
+            </view>
+             <view class='footer-img'>
+               <navigator url='gs'><image src='images/11.gif'class='wach'></image></navigator>
+               <navigator url='gs' class='gs'>公司介绍</navigator>
+            </view>
+             <view class='footer-img'>
+               <navigator url='gs'><image src='images/12.gif'class='wach'></image></navigator>
+               <navigator url='gs' class='fw'>服务</navigator>
+            </view>
+             <view class='footer-img'>
+               <navigator url='gs'><image src='images/13.gif'class='wach'></image></navigator>
+               <navigator url='gs'class='gs'>联系方式</navigator>
+            </view>
+             <view class='footer-img'>
+               <navigator url='my'><image src='images/14.gif'class='wach'></image></navigator>
+                <navigator url='my'class='fw'>我的</navigator>
+            </view>
+        </view>
+      </view>
+</view>

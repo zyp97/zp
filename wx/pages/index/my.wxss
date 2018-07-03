@@ -1,0 +1,94 @@
+/* pages/index/my.wxss */
+.bgcl{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:400rpx;
+  background:#ff7f50;
+
+}
+.jq{
+  width:250rpx;
+  height:250rpx;
+  margin: 60rpx auto;
+}
+.name{
+   color:white;
+   text-align: center;
+   margin-top: -60rpx;
+}
+.kove{
+  display: flex;
+  flex-direction: column;
+}
+.mov{
+  width:100%;
+  height:100rpx;
+  border-bottom: 4rpx solid lavender;
+  display: flex;
+  padding: 20rpx;
+}
+.xix{
+  width:100rpx;
+  height:100rpx;
+}
+.xixa{
+  width:100rpx;
+  height:100rpx;
+  margin-left: 4rpx;
+}
+.texta{
+  font-size: 30rpx;
+  margin-top: 35rpx;
+}
+.jt{
+  width:50rpx;
+  height:50rpx;
+  margin-top: 30rpx;
+  margin-left: 430rpx;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  height:130rpx;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  left:0;
+}
+.footer-img{
+  display: flex;
+  flex-direction: column;
+}
+.wach{
+  width:100rpx;
+  height:80rpx;
+}
+.index{
+  color:#ff5300;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-top: 3rpx;
+}
+.gs{
+   font-size: 30rpx;
+   margin-left: -10rpx;
+   font-weight: bold;
+   margin-top: 3rpx;
+   
+}
+.lx{
+  font-size: 30rpx;
+   margin-left: -10rpx;
+   font-weight: bold;
+   margin-top: 15rpx;
+}
+.fw{
+   margin-left: 22rpx;
+   font-size: 30rpx;
+   font-weight: bold;
+   margin-top: 4rpx;
+}
