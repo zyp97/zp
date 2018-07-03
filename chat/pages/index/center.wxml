@@ -1,0 +1,52 @@
+<!--pages/index/center.wxml-->
+<view class='bgcol'>
+ <image src='../../images/33.gif' class='tya'></image>
+</view>
+<view class='hs'></view>
+ <view class='shop'>
+     <view class='dis'>
+        <image src='../../images/34.gif'class='img'></image>
+        <text class="texts">购物车</text>
+         <image src='../../images/39.gif'class='sig'></image>
+     </view>
+       <view class='dis'>
+        <image src='../../images/35.gif'class='img'></image>
+        <text class="texts">购物订单</text>
+        <image src='../../images/39.gif'class='imgs'></image>
+     </view>
+       <view class='dis'>
+        <image src='../../images/36.gif'class='img'></image>
+        <text class="texts">预约订单</text>
+         <image src='../../images/39.gif'class='imgs'></image>
+     </view>
+       <view class='dis'>
+        <image src='../../images/37.gif'class='img'></image>
+        <text class="texts">我的收藏</text>
+         <image src='../../images/39.gif'class='imgs'></image>
+     </view>
+       <view class='dis'>
+        <image src='../../images/38.gif'class='img'></image>
+        <text class="texts">收货地址</text>
+         <image src='../../images/39.gif'class='imgs'></image>
+     </view>
+     <view class='hss'></view>
+      <view class='dis'>
+        <image src='../../images/40.gif'class='img'></image>
+        <text class="texts">清除缓存</text>
+         <image src='../../images/39.gif'class='imgs'></image>
+     </view>
+  </view>
+    <view class='footer'>
+            <view class='icon'>
+               <navigator url='index'><image src='../../images/42.gif'class='home'></image></navigator>
+                <text class='index'>首页</text>
+            </view>
+             <view class='icon'>
+                <navigator url=''><image src='../../images/41.gif'class='homes'></image></navigator>
+                <navigator url='' class='one'>个人中心</navigator>
+            </view>
+             <view class='icon'>
+               <navigator url='gwc'> <image src='../../images/32.gif'class='homes'></image></navigator>
+                <navigator url='gwc' class='ones'>购物车</navigator>
+            </view>
+     </view>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/center",
+    "pages/index/shop",
+    "pages/index/shops",
+    "pages/index/finsh",
+    "pages/index/gwc"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#30c79c",
+    "navigationBarTitleText": "张家界旅游休闲",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#ccc"
+  }
+}

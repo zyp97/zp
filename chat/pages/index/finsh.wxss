@@ -1,0 +1,69 @@
+/* pages/index/finsh.wxss */
+ .lay{
+   display: flex;
+   flex-direction: column;
+   width:100%;
+   height:2000rpx;
+   background: lavender;
+ }
+ .lays{
+   display:flex;
+   width:100%;
+   height:450rpx;
+   justify-content: space-around;
+
+ }
+ .way{
+   display: flex;
+ }
+
+ .wayss{
+   display: flex;
+   flex-direction: column;
+   width:300rpx;
+   height:400rpx;
+   background: white;
+   padding: 20rpx;
+   border:1rpx solid lavender;
+   margin-top: 20rpx;
+   border-radius: 8rpx;
+ }
+ .waysss{
+   display: flex;
+   flex-direction: column;
+   width:300rpx;
+   height:400rpx;
+   background: white;
+   padding: 20rpx;
+   border:1rpx solid lavender;
+   margin-top: 20rpx;
+   margin-left: 20rpx;
+     border-radius: 8rpx;
+ }
+ .wayssss{
+   display: flex;
+   flex-direction: column;
+   width:300rpx;
+   height:400rpx;
+   background: white;
+   padding: 20rpx;
+   border:1rpx solid lavender;
+   margin-top: 40rpx;
+   margin-left: 20rpx;
+     border-radius: 8rpx;
+ }
+ .iomg{
+   width:300rpx;
+   height:300rpx;
+ }
+ .fin{
+   font-size: 30rpx;
+   font-weight: bold;
+   margin-top: 10rpx;
+   margin-left: 8rpx;
+ }
+ .mn{
+   font-size: 30rpx;
+   color:red;
+   margin-top: 10rpx;
+ }

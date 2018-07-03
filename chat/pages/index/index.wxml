@@ -1,0 +1,213 @@
+<!--index.wxml-->
+<!--
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+-->
+<view>
+   <swiper class="swiper" indicator-dots="true" autoplay="ture" interval="3000"duration="1000">  
+        <block wx:for="{{movies}}" wx:for-index="index">  
+          <swiper-item>  
+            <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          </swiper-item>  
+        </block>  
+      </swiper>
+     <view class='nav'>
+         <view class='nav-i'>
+            <view class='nav-img'>
+               <image src='../../images/3.gif'class='ktext'></image>
+               <text class='txt'>ktv</text>
+            </view>
+            <view class='nav-img'>
+              <navigator url='finsh'><image src='../../images/4.gif'class='ktexts'></image></navigator>
+               <text class='txt'>垂钓中心</text>
+            </view>
+            <view class='nav-img'>
+               <image src='../../images/5.gif'class='ktext'></image>
+               <text class='txt'>后园农庄</text>
+            </view>
+            <view class='nav-img'>
+               <image src='../../images/6.gif'class='ktext'></image>
+               <text class='txt'>美食天下</text>
+            </view>
+         </view>
+         <view class='nav-i'>
+            <view class='nav-img'>
+               <image src='../../images/7.gif'class='ktext'></image>
+               <text class='txt'>美景欣赏</text>
+            </view>
+            <view class='nav-img'>
+               <image src='../../images/8.gif'class='ktext'></image>
+               <text class='txt'>酒店住宿</text>
+            </view>
+            <view class='nav-img'>
+               <image src='../../images/9.gif'class='ktext'bindtap='callme'></image>
+               <text class='txt'bindtap='callme'>一键拨号</text>
+            </view>
+            <view class='nav-img'>
+               <image src='../../images/10.gif'class='ktext'></image>
+               <text class='txt'>公司简介</text>
+            </view>
+         </view>
+     </view> 
+     <view class='ber'></view>
+     <view class='section'>
+          <text class='town'>后园农庄</text>
+          <view class='sec-img'>
+              <view class='img-h'>
+                  <image src='../../images/11.gif'class='towns'></image>
+                  <text class='towna'>后院农庄</text>
+              </view>
+               <view class='img-h'>
+                  <image src='../../images/12.gif'class='towns'></image>
+                  <text class='towna'>火爆招商</text>
+              </view>
+               <view class='img-h'>
+                  <image src='../../images/13.gif'class='towns'></image>
+                  <text class='towna'>后园农庄</text>
+              </view>
+          </view>
+          <view class="textr">一凳一杆撒尔打窝白龙山下品香名姿宠辱不惊闲看后园</view>
+     </view>
+     <view class='watch'>
+          <view class='tx'>
+            <view class='bea'></view>
+            <text class='last'>炒菜系列</text>
+            <view class='bea'></view>
+          </view>
+          <view class='tap'>
+             <view class='tas'>
+                <navigator url='shop'><image src='../../images/14.gif' class='tp'></image></navigator>
+                 <text class='nai'>奶油小馒头</text>
+                 <text class='monerys'>20元/份</text>
+             </view>
+             <view class='tas'>
+                 <navigator url='shops'><image src='../../images/15.gif' class='tp'></image></navigator>
+                 <text class='nai'>阙子之恋</text>
+                 <text class='monerys'>18元/份</text>
+             </view>
+          </view>
+           <view class='tap'>
+             <view class='tas'>
+                 <image src='../../images/16.gif' class='tp'></image>
+                 <text class='nai'>荷兰豆</text>
+                 <text class='monery'>18元/份</text>
+             </view>
+             <view class='tas'>
+                 <image src='../../images/17.gif' class='tp'></image>
+                 <text class='nai'>小白菜</text>
+                 <text class='monery'>18元/份</text>
+             </view>
+          </view>
+            <view class='tx'>
+            <view class='bea'></view>
+            <text class='last'>火锅系列</text>
+            <view class='bea'></view>
+          </view>
+          <view class='tap'>
+             <view class='tas'>
+                 <image src='../../images/18.gif' class='tp'></image>
+                 <text class='nai'>蛇</text>
+                 <text class='monery'>150元/份</text>
+             </view>
+             <view class='tas'>
+                 <image src='../../images/19.gif' class='tp'></image>
+                 <text class='nai'>野猪</text>
+                 <text class='monery'>158元/份</text>
+             </view>
+          </view>
+           <view class='tap'>
+             <view class='tas'>
+                 <image src='../../images/20.gif' class='tp'></image>
+                 <text class='nai'>野羊</text>
+                 <text class='monery'>288元/份</text>
+             </view>
+             <view class='tas'>
+                 <image src='../../images/21.gif' class='tp'></image>
+                 <text class='nai'>干锅扇子骨</text>
+                 <text class='monery'>88元/份</text>
+             </view>
+          </view>
+          <view class='tx'>
+            <view class='bea'></view>
+            <text class='last'>住宿酒店</text>
+            <view class='bea'></view>
+          </view>
+          <view class='tap'>
+             <view class='tas'>
+                <image src='../../images/22.gif' class='tp'></image>
+                 <text class='nai'>入住酒店</text>
+                 <text class='monery'>￥158</text>
+             </view>
+             <view class='tas'>
+                 <image src='../../images/23.gif' class='tp'></image>
+                 <text class='nai'>入住酒店</text>
+                 <text class='monery'>￥158</text>
+             </view>
+          </view>
+           <view class='tap'>
+             <view class='tas'>
+                 <image src='../../images/20.gif' class='tp'></image>
+                 <text class='nai'>入住酒店</text>
+                 <text class='monery'>￥158</text>
+             </view>
+             <view class='tas'>
+                 <image src='../../images/21.gif' class='tp'></image>
+                 <text class='nai'>入住酒店</text>
+                 <text class='monery'>￥158</text>
+             </view>
+          </view>
+           <view class='tx'>
+            <view class='bea'></view>
+            <text class='last'>餐饮美食</text>
+            <view class='bea'></view>
+          </view>
+          <view class='tap'>
+             <view class='tas'>
+                 <image src='../../images/26.gif' class='tp'></image>
+                 <text class='nai'>美食天下</text>
+                 <text class='monery'>￥158</text>
+             </view>
+             <view class='tas'>
+                 <image src='../../images/27.gif' class='tp'></image>
+                 <text class='nai'>吃货天下</text>
+                 <text class='monery'>￥158</text>
+             </view>
+          </view>
+           <view class='tap'>
+             <view class='tas'>
+                 <image src='../../images/28.gif' class='tp'></image>
+                 <text class='nai'>吃吃吃</text>
+                 <text class='monery'>￥158</text>
+             </view>
+             <view class='tas'>
+                 <image src='../../images/29.gif' class='tp'></image>
+                 <text class='nai'>津津有味</text>
+                 <text class='monery'>￥158</text>
+             </view>
+          </view>
+          <view class='footer'>
+            <view class='icon'>
+                <image src='../../images/30.gif'class='home'></image>
+                <text class='index'>首页</text>
+            </view>
+             <view class='icon'>
+                <navigator url='center'><image src='../../images/31.gif'class='homes'></image></navigator>
+                <navigator url='center' class='one'>个人中心</navigator>
+            </view>
+             <view class='icon'>
+               <navigator url='gwc'> <image src='../../images/32.gif'class='homes'></image></navigator>
+                <navigator url='gwc' class='ones'>购物车</navigator>
+            </view>
+          </view>
+     </view>
+</view>

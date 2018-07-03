@@ -1,0 +1,184 @@
+/* pages/index/shops.wxss */
+.mat{
+  width:100%;
+  height:500rpx;
+}
+.ber{
+  width:100%;
+  height:30rpx;
+  margin-top: -10rpx;
+  background: lavender;
+}
+.cool{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:160rpx;
+  border-bottom: 1rpx solid lavender;
+}
+.cools{
+  width:100%;
+  height:60rpx;
+}
+.ny{
+   font-size: 30rpx;
+
+   font-weight: bold;
+   margin-left: 15rpx;
+}
+.coolss{
+  display: flex;
+  width:100%;
+  height:80rpx;
+}
+.monery{
+  font-weight: bold;
+  color:red;
+   margin-left: 10rpx;
+  margin-top: 20rpx;
+}
+.cou{
+  display: flex;
+  flex-direction: column;
+  width:200rpx;
+  height:80rpx;
+  margin-left: 250rpx;
+}
+.coux{
+  display: flex;
+  flex-direction: column;
+  width:200rpx;
+  height:80rpx;
+
+}
+.one{
+  text-align: center;
+  font-size: 30rpx;
+}
+.love{
+  width:40rpx;
+  height:40rpx;
+  margin-left: 84rpx;
+}
+.xl{
+   text-align: center;
+   font-size: 30rpx;
+}
+.kd{
+  width:100%;
+  height:60rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid lavender;
+
+}
+.mast{
+  font-size: 30rpx;
+  font-weight: bold;
+
+}
+.math{
+    display: flex;
+    width:100%;
+    height:45rpx;
+    padding: 10px;
+    border-bottom: 1rpx solid lavender;
+}
+.mai{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.kls{
+  width:50rpx;
+  height:50rpx;
+  background: lavender;
+  margin-left: 30rpx;
+  text-align: center;
+ 
+}
+.ones{
+  margin-left: 30rpx;
+  font-weight: bold;
+}
+.ms{
+   width:50rpx;
+  height:50rpx;
+  background: lavender;
+  margin-left: 30rpx;
+  text-align: center;
+ 
+}
+.kuc{
+  font-size: 30rpx;
+  margin-left: 160rpx;
+  font-weight: bold;
+  margin-top: 5rpx;
+}
+.min{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:1340rpx;
+}
+.live{
+  width:100%;
+  height:40rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid lavender;
+  font-weight: bold;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+.rout{
+  width:100%;
+  height:240rpx;
+  border-bottom: 1rpx solid lavender;
+  display: flex;
+}
+.n{
+  width:200rpx;
+  height:200rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  
+}
+.mon{
+  display: flex;
+  flex-direction: column;
+  margin-top: 35rpx;
+}
+.mos{
+  font-size: 30rpx;
+  margin-left: 22rpx;
+  font-weight: bold;
+
+}
+.mone{
+   font-size: 35rpx;
+    margin-left: 20rpx;
+    font-weight: bold;
+    color:red;
+    margin-top: 20rpx;
+}
+.shoping{
+  display: flex;
+  width:100%;
+  position: fixed;
+  bottom:0;
+}
+.jsop{
+  width:50%;
+  height:80rpx;
+  text-align: center;
+  background:#ff8201;
+}
+.jsops{
+  width:50%;
+  height:80rpx;
+  text-align: center;
+  background:#ff3800;
+}
+.run{
+   font-size: 35rpx;
+   color:white;
+   line-height: 80rpx;
+}

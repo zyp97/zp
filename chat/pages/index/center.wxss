@@ -1,0 +1,119 @@
+/* pages/index/center.wxss */
+.bgcol{
+  width:100%;
+  height:300rpx;
+  background:#34c699;
+}
+.tya{
+  width:100rpx;
+  height:100rpx;
+  margin-left: 600rpx;
+  margin-top: 30rpx;
+}
+.hs{
+  width:100%;
+  height:50rpx;
+  background:#f2f2f2;
+  border-bottom:3rpx solid lavender;
+}
+.hss{
+  width:100%;
+  height:50rpx;
+  background:#f2f2f2;
+  border:3rpx solid lavender;
+}
+.shop{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:670rpx;
+
+}
+.dis{
+  display: flex;
+  width:100%;
+  height:80rpx;
+  border-bottom:1rpx solid lavender;
+  padding: 10rpx;
+  margin-left: 10rpx;
+}
+.img{
+  width:60rpx;
+  height:60rpx;
+  margin-top: 20rpx;
+}
+.texts{
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+
+}
+.imgs{
+  width:40rpx;
+  height:40rpx;
+   margin-top: 20rpx;
+   margin-left: 460rpx;
+
+}
+.sig{
+   width:40rpx;
+  height:40rpx;
+   margin-top: 20rpx;
+   margin-left: 488rpx;
+}
+.footer{
+  width:100%;
+  display: flex;
+  border-top:1rpx solid lavender;
+  justify-content: space-around;
+  height:100rpx;
+  position: fixed;
+  bottom:0;
+  background: white;
+  left: 0;
+  z-index: 99;
+}
+.icon{
+  display: flex;
+  flex-direction: column;
+}
+.home{
+  width:60rpx;
+  height:60rpx;
+}
+.homes{
+   width:60rpx;
+  height:60rpx;
+}
+.index{
+  text-align: center;
+  font-size: 30rpx;
+  margin-top: -5rpx;
+  font-weight: bold;
+}
+.one{
+    font-weight: bold;
+     text-align: center;
+    font-size: 30rpx;
+     color:#3dc49b;
+    margin-top: -5rpx;
+    margin-left: -28rpx;
+}
+.two{
+    font-weight: bold;
+     text-align: center;
+    font-size: 30rpx;
+    margin-left: rpx;
+}
+.homes{
+  width:60rpx;
+  height:60rpx;
+}
+.ones{
+   font-weight: bold;
+     text-align: center;
+    font-size: 30rpx;
+    margin-top: -5rpx;
+    margin-left: -10rpx;
+}

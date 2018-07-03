@@ -1,0 +1,41 @@
+<!--pages/index/finsh.wxml-->
+  <view class='lay'>
+       <view class='lays'>
+          <view class='way'>
+                 <view class='wayss'>
+                    <image src='../../images/49.gif'class='iomg'></image>
+                    <text class='fin'>休闲垂钓 (通宵)</text>
+                    <text class='mn'>￥120.00</text>
+                 </view>
+                 <view class='waysss'>
+                    <image src='../../images/50.gif'class='iomg'></image>
+                    <text class='fin'>休闲垂钓 (半天)</text>
+                    <text class='mn'>￥50.00</text>
+                 </view>
+          </view>
+       </view>    
+        <view class='way'>
+          <view class='wayssss'>
+              <image src='../../images/51.gif'class='iomg'></image>
+              <text class='fin'>休闲垂钓 (一人一天)</text>
+              <text class='mn'>￥80.00</text>
+           </view>
+            <view class='wayssss'>
+              <image src='../../images/51.gif'class='iomg'></image>
+              <text class='fin'>休闲垂钓 (一人一天)</text>
+              <text class='mn'>￥80.00</text>
+           </view>
+         </view>
+         <view class='way'>
+          <view class='wayssss'>
+              <image src='../../images/51.gif'class='iomg'></image>
+              <text class='fin'>休闲垂钓 (一人一天)</text>
+              <text class='mn'>￥80.00</text>
+           </view>
+            <view class='wayssss'>
+              <image src='../../images/51.gif'class='iomg'></image>
+              <text class='fin'>休闲垂钓 (一人一天)</text>
+              <text class='mn'>￥120.00</text>
+           </view>
+         </view>
+  </view>

@@ -1,0 +1,18 @@
+<!--pages/index/gwc.wxml-->
+<view class='center'>
+<text class='shops'>购物车为空</text>
+ <view class='footer'>
+            <view class='icon'>
+               <navigator url='index'> <image src='../../images/42.gif'class='homes'></image></navigator>
+                <navigator url='index' class='oness'>首页</navigator>
+            </view>
+             <view class='icon'>
+                <navigator url='center'><image src='../../images/31.gif'class='homes'></image></navigator>
+                <navigator url='center' class='one'>个人中心</navigator>
+            </view>
+             <view class='icon'>
+               <navigator url='gwc'> <image src='../../images/34.gif'class='homes'></image></navigator>
+                <navigator url='gwc' class='ones'>购物车</navigator>
+            </view>
+ </view>
+ </view>

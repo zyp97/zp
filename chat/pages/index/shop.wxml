@@ -1,0 +1,76 @@
+<!--pages/index/shop.wxml-->
+  <image src='../../images/14.gif'class='mat'></image>
+  <view class='ber'></view>  
+  <view class='cool'>
+      <view class='cools'>
+          <text class='ny'>奶油小馒头</text>
+      </view>
+      <view class='coolss'>
+            <text class='monery'>￥20</text>
+            <view class='cou'>
+              <text class='one'>1</text>
+              <text class='xl'>销量</text>
+            </view>
+             <view class='coux'>
+              <image src='../../images/43.gif'class='love'></image>
+              <text class='xl'>收藏</text>
+            </view>
+      </view>
+  </view>
+   <view class='kd'>
+        <text class='mast'>快递 : 包邮</text>
+   </view>
+   <view class='math'>
+     <text class='mai'>购买数量</text>
+     <text class='kls'>-</text>
+     <text class='ones'>1</text>
+      <text class='ms'>+</text>
+      <text class='kuc'>库存 ：99999</text>
+   </view>
+     <view class='ber'></view>  
+   <view class='min'>
+        <text class='live'>猜你喜欢</text>
+        <view class='rout'>
+            <image src='../../images/44.gif' class='n'></image>
+            <view class='mon'>
+               <text class='mos'>扣肉</text>
+               <text class="mone">￥35</text>
+            </view>
+        </view>
+         <view class='rout'>
+            <image src='../../images/45.gif' class='n'></image>
+            <view class='mon'>
+               <text class='mos'>农家小炒肉</text>
+               <text class="mone">￥35</text>
+            </view>
+        </view>
+         <view class='rout'>
+            <image src='../../images/46.gif' class='n'></image>
+            <view class='mon'>
+               <text class='mos'>卤猪脚</text>
+               <text class="mone">￥25</text>
+            </view>
+        </view>
+         <view class='rout'>
+            <image src='../../images/47.gif' class='n'></image>
+            <view class='mon'>
+               <text class='mos'>荷兰豆</text>
+               <text class="mone">￥25</text>
+            </view>
+        </view>
+         <view class='rout'>
+            <image src='../../images/48.gif' class='n'></image>
+            <view class='mon'>
+               <text class='mos'>苦瓜</text>
+               <text class="mone">￥22</text>
+            </view>
+        </view>
+        <view class='shoping'>
+          <view class='jsop'>
+            <text class='run'>加入购物车</text>
+          </view>     
+          <view class='jsops'>
+            <text class='run'>立即购买</text>
+          </view>     
+        </view>
+   </view> 
